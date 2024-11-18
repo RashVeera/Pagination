@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product__single {
+  display: flex;
+  flex-direction: column;
+  border: black solid;
+  text-align: center;
+  padding: 2px 3px;
+  cursor: pointer;
+  align-items: center;
+  background-color: beige;
+}
+
+.product__single > img {
+  width: 10rem;
+}
+
+.page_Selected {
+  background-color: lightblue;
+}
+
+.pagedisabled {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.pagination > span {
+  border: gray 1px solid;
+  padding: 15px 20px;
+  cursor: pointer;
+}
